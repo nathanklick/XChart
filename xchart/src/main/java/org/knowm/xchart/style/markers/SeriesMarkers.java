@@ -31,6 +31,7 @@ public interface SeriesMarkers {
   Marker PLUS = new Plus();
   Marker RECTANGLE = new Rectangle();
   Marker OVAL = new Oval();
+  Marker PENTAGON = new Pentagon();
 
   Marker[] getSeriesMarkers();
 }
