@@ -30,6 +30,7 @@ public interface SeriesMarkers {
   Marker CROSS = new Cross();
   Marker PLUS = new Plus();
   Marker RECTANGLE = new Rectangle();
+  Marker OVAL = new Oval();
 
   Marker[] getSeriesMarkers();
 }
