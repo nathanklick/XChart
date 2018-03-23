@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.knowm.xchart</groupId>
     <artifactId>xchart-parent</artifactId>
-    <version>3.5.2-SNAPSHOT</version>
+    <version>3.5.2-SIDEWINDER</version>
     <packaging>pom</packaging>
     <name>XChart Parent</name>
     <description>XChart is a light weight Java library for plotting data.</description>
@@ -67,12 +67,12 @@
 
     <dependencyManagement>
         <dependencies>
-            <dependency>
-                <groupId>de.erichseifert.vectorgraphics2d</groupId>
-                <artifactId>VectorGraphics2D</artifactId>
-                <version>0.11</version>
-                <optional>true</optional>
-            </dependency>
+            <!--<dependency>-->
+                <!--<groupId>de.erichseifert.vectorgraphics2d</groupId>-->
+                <!--<artifactId>VectorGraphics2D</artifactId>-->
+                <!--<version>0.11</version>-->
+                <!--<optional>true</optional>-->
+            <!--</dependency>-->
         </dependencies>
     </dependencyManagement>
 

@@ -5,7 +5,7 @@
     <parent>
         <groupId>org.knowm.xchart</groupId>
         <artifactId>xchart-parent</artifactId>
-        <version>3.5.2-SNAPSHOT</version>
+        <version>3.5.2-SIDEWINDER</version>
     </parent>
 
     <artifactId>xchart</artifactId>
@@ -14,10 +14,10 @@
     <description>The core XChart library</description>
 
     <dependencies>
-        <dependency>
-            <groupId>de.erichseifert.vectorgraphics2d</groupId>
-            <artifactId>VectorGraphics2D</artifactId>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>de.erichseifert.vectorgraphics2d</groupId>-->
+            <!--<artifactId>VectorGraphics2D</artifactId>-->
+        <!--</dependency>-->
     </dependencies>
 
 </project>
