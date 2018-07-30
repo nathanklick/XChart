@@ -52,17 +52,16 @@
     </modules>
 
     <distributionManagement>
-        <snapshotRepository>
-            <id>sonatype-nexus-snapshots</id>
-            <name>Sonatype Nexus Snapshots</name>
-            <url>http://oss.sonatype.org/content/repositories/snapshots</url>
-        </snapshotRepository>
         <repository>
-            <id>sonatype-nexus-staging</id>
-            <name>Nexus Release Repository</name>
-            <url>http://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+            <id>artifactory-central</id>
+            <name>Swirlds Artifactory-releases</name>
+            <url>https://art.swirlds.com/artifactory/swirlds</url>
         </repository>
-        <downloadUrl>https://oss.sonatype.org/content/groups/public/org/knowm/xchart</downloadUrl>
+        <snapshotRepository>
+            <id>artifactory-snapshots</id>
+            <name>Swirlds Artifactory-snapshots</name>
+            <url>https://art.swirlds.com/artifactory/swirlds</url>
+        </snapshotRepository>
     </distributionManagement>
 
     <dependencyManagement>
@@ -193,5 +192,6 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>
+
 
 </project>
